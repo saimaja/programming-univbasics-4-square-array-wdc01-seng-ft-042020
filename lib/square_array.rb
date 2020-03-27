@@ -6,5 +6,5 @@ def square_array(array)
   result[i] = numbers[i] ** 2
   i += 1
 end
-  result
+ result
 end
