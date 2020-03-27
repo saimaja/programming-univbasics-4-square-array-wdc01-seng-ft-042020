@@ -1,6 +1,3 @@
-def square_array(array)
+def square_array(numbers)
   # your code here
-  arr = []
-  array.each { |i| arr << i ** 2 }
-  arr
-end
+  result = Array.new(numbers.size)
