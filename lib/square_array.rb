@@ -1,10 +1,10 @@
 def square_array(array)
   # your code here
-new_array = []
-
-array.each do |integer|
-  new_array << integer ** 2
+  result = Array.new(array.length)
+  i = 0
+  while i < array.length
+  result[i] = array[i] ** 2
+    i += 1
   end
-  return new_array
+ result
 end
-
